@@ -11,7 +11,7 @@ Building practical AI systems that reason, retrieve, use tools, and execute mult
 </div>
 
 <div align="center">
-<img src="generated/portrait.svg" alt="Animated ASCII portrait of Palash Pingale" width="420">
+<img src="generated/portrait.svg" alt="Animated ASCII portrait of Palash Pingale" width="700">
 </div>
 
 ## CURRENT FOCUS

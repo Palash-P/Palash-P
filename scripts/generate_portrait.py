@@ -38,4 +38,4 @@ def render(args):
     out = Path(args.output); out.parent.mkdir(parents=True, exist_ok=True); out.write_text("\n".join(lines)+"\n", encoding="utf-8")
 
 if __name__ == "__main__":
-    p=argparse.ArgumentParser(); p.add_argument("--input", required=True); p.add_argument("--output", required=True); p.add_argument("--columns", type=int, default=72); p.add_argument("--char-ratio", type=float, default=.48); p.add_argument("--contrast", type=float, default=1.35); p.add_argument("--gamma", type=float, default=1.7); render(p.parse_args())
+    p=argparse.ArgumentParser(); p.add_argument("--input", required=True); p.add_argument("--output", required=True); p.add_argument("--columns", type=int, default=90); p.add_argument("--char-ratio", type=float, default=.48); p.add_argument("--contrast", type=float, default=1.45); p.add_argument("--gamma", type=float, default=1.7); render(p.parse_args())
