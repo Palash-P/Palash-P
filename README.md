@@ -4,53 +4,69 @@
 
 ### AI Engineer · Software Engineer
 
-<samp>LLMs · RAG · AI Agents · Backend Systems · Automation</samp>
+<samp>LLMs · RAG · Agentic AI · AI Automation</samp>
 
-Building practical software at the boundary between reliable backend systems and useful AI.
+Building practical AI systems that reason, retrieve, use tools, and execute multi-step workflows.
 
 </div>
 
-<table><tr><td width="52%" valign="top">
+<img src="generated/portrait.svg" alt="Animated ASCII portrait of Palash Pingale" width="420">
 
 ## CURRENT FOCUS
 
-Designing LLM applications that can retrieve the right context, use tools deliberately, and ship as maintainable products.
+**AI Engineer | LLMs · RAG · Agentic AI · AI Automation**
 
-<samp>Python / Django / PostgreSQL / pgvector / LangGraph / Gemini</samp>
+Building practical AI systems that **reason, retrieve, use tools, and execute multi-step workflows**. Experienced in **LLM applications, multi-agent orchestration, RAG, evaluation, and AI-powered backend systems** using Python.
+
+**Python · LangGraph · LangChain · Google ADK · Gemini · Claude · RAG · pgvector · FastAPI · Django**
 
 ## FEATURED SYSTEMS
 
-**Nexus AI Knowledge Base**  
-PDFs are hard to search reliably. I built a Django + pgvector RAG system with chunking, Gemini embeddings, hybrid and semantic retrieval, reranking, hallucination checks, and Railway deployment.
+### 🧠 IncidentIQ
+**Autonomous AI incident resolution system** built with LangGraph + Google ADK, using multi-step agent orchestration, vector retrieval, tool execution, and automated recovery workflows.
 
-**AI Writing Assistant API**  
-A Django REST API that turns several AI writing workflows into a clean, authenticated service.
+### 🤖 Sentinel
+**Deterministic multi-agent system** with Triage, Diagnosis, Remediation, Guardrail, and Reflection agents, designed for controlled execution of complex AI workflows.
 
-**AI Automation Projects**  
-n8n workflows, LLM APIs, agent loops, and integrations that remove repetitive operational work.
+### 🔎 Nexus AI Knowledge Base
+**Production-oriented RAG SaaS** built with Django, pgvector, Gemini embeddings, hybrid retrieval, semantic search, cross-encoder reranking, query rewriting, and hallucination detection.
 
-**Newsletter System**  
-Subscriber management, campaigns, open/click tracking, and analytics using Django, PostgreSQL, Redis, and Celery.
+### ✍️ AI Writing Assistant
+**AI-powered Django REST API** providing writing, summarization, document Q&A, persistent memory, and structured LLM workflows through a clean backend architecture.
 
-</td><td width="48%" valign="top" align="center">
+### ⚡ AI Automation Systems
+**End-to-end AI automations** using n8n, Gemini, Claude, APIs, and agent workflows to turn repetitive processes into autonomous pipelines.
 
-<img src="generated/portrait.svg" alt="Animated ASCII portrait of Palash Pingale" width="420">
+### 🧪 LLM Fine-Tuning
+Hands-on experiments with **Hugging Face, fine-tuning, evaluation, and model adaptation**, exploring specialized model performance.
 
-<sub>systems thinker · product builder · continuous learner</sub>
 
-</td></tr></table>
 
-## STACK
 
-<samp>AI / LLM</samp>  Python · LLM APIs · Prompt Engineering · LangChain · LangGraph · RAG · Embeddings · Vector Search · Hybrid Search · Reranking · AI Agents · MCP · Google ADK · n8n
 
-<samp>BACKEND</samp>  Django · Django REST Framework · PostgreSQL · Redis · Celery · REST APIs · JWT
+## WHAT I BUILD
 
-<samp>ML / DELIVERY</samp>  PyTorch · Scikit-learn · NumPy · Pandas · GitHub Actions · CI/CD
+`LLM Applications` · `RAG Systems` · `AI Agents` · `Multi-Agent Orchestration` · `AI Automation` · `LLM Evaluation` · `Backend APIs` · `Vector Search` · `Mobile Applications`
+
+## ENGINEERING STACK
+
+**AI / LLM:** Python · LangChain · LangGraph · Google ADK · Gemini · Claude · Prompt Engineering · RAG · MCP · n8n
+
+**ML / Deep Learning:** PyTorch · Scikit-learn · NumPy · Pandas · Transfer Learning · Computer Vision · Model Fine-Tuning
+
+**Backend:** Django · Django REST Framework · FastAPI · REST APIs · PostgreSQL · MySQL · Redis · Celery
+
+**Vector Search & Data:** pgvector · MongoDB Atlas Vector Search · Embeddings · Hybrid Search · Semantic Search · Cross-Encoder Reranking
+
+**Mobile:** Flutter · Dart · Bloc · Provider · GetX · Clean Architecture · Firebase · Razorpay
+
+**Cloud / DevOps:** Docker · AWS · Oracle Cloud Infrastructure · Railway · Git · GitHub · GitHub Actions
+
+**AI Systems:** Agentic AI · Multi-Agent Systems · AI Automation · LLM Evaluation · Hallucination Detection · Structured Outputs · Tool Calling
 
 <details><summary><samp>PRODUCTION SOFTWARE BACKGROUND</samp></summary>
 
-Before specializing in AI engineering, I shipped Flutter applications including PlottingWala, VyapariApp, DMFU, and Attendsync. That experience still shapes how I think about APIs, reliability, and the last mile of a user-facing product.
+Flutter applications including PlottingWala, VyapariApp, DMFU, and Attendsync.
 
 </details>
 
@@ -62,5 +78,4 @@ Before specializing in AI engineering, I shipped Flutter applications including 
 
 <br><br>
 
-<a href="https://github.com/PalashPingale">github.com/PalashPingale</a>
-
+<a href="https://github.com/Palash-P">github.com/Palash-P</a>
