@@ -11,7 +11,15 @@ def render(args):
         raise SystemExit("Portrait generation requires Pillow: pip install Pillow") from exc
     source = Path(args.input)
     if not source.is_file(): raise SystemExit(f"Portrait not found: {source}")
-    image = Image.open(source).convert("RGB")
+    raw = Image.open(source)
+    # Composite transparent PNG pixels onto white. Converting RGBA directly
+    # to RGB turns transparent background into black and hides dark hair.
+    if "A" in raw.getbands():
+        rgba = raw.convert("RGBA")
+        background = Image.new("RGBA", rgba.size, (255, 255, 255, 255))
+        image = Image.alpha_composite(background, rgba).convert("RGB")
+    else:
+        image = raw.convert("RGB")
     ratio = image.height / image.width
     rows = max(1, round(args.columns * ratio * args.char_ratio))
     image = ImageOps.fit(image, (args.columns, rows), method=Image.Resampling.LANCZOS)
