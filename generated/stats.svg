@@ -7,7 +7,7 @@
 <text x="28" y="112" fill="#8c9aaa" font-family="JetBrains Mono, ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12px" font-weight="400" text-anchor="start">public contributions</text>
 <line x1="220" y1="30" x2="220" y2="140" stroke="#263341"/>
 <rect x="242" y="42" width="5" height="88" rx="2" fill="#78dcca" opacity="1.00"/>
-<rect x="251" y="42" width="5" height="88" rx="2" fill="#78dcca" opacity="1.00"/>
+<rect x="251" y="130" width="5" height="2" rx="2" fill="#78dcca" opacity="0.25"/>
 <rect x="260" y="130" width="5" height="2" rx="2" fill="#78dcca" opacity="0.25"/>
 <rect x="269" y="130" width="5" height="2" rx="2" fill="#78dcca" opacity="0.25"/>
 <rect x="278" y="130" width="5" height="2" rx="2" fill="#78dcca" opacity="0.25"/>
@@ -55,7 +55,7 @@
 <rect x="656" y="130" width="5" height="2" rx="2" fill="#78dcca" opacity="0.25"/>
 <rect x="665" y="130" width="5" height="2" rx="2" fill="#78dcca" opacity="0.25"/>
 <rect x="674" y="130" width="5" height="2" rx="2" fill="#78dcca" opacity="0.25"/>
-<rect x="683" y="130" width="5" height="2" rx="2" fill="#78dcca" opacity="0.25"/>
-<rect x="692" y="42" width="5" height="88" rx="2" fill="#78dcca" opacity="1.00"/>
+<rect x="683" y="42" width="5" height="88" rx="2" fill="#78dcca" opacity="1.00"/>
+<rect x="692" y="130" width="5" height="2" rx="2" fill="#78dcca" opacity="0.25"/>
 <rect x="701" y="130" width="5" height="2" rx="2" fill="#78dcca" opacity="0.25"/>
 </svg>
